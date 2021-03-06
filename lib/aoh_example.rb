@@ -6,6 +6,8 @@ BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
  array_of_hashes = Array.new  
+ array_of_hashes << DON_G,JOELLE_VD, PAT_M, KATE_G, BRUCE_G
+ array_of_hashes = Array.new  
  array_of_hashes << DON_G
  array_of_hashes << JOELLE_VD
  array_of_hashes << PAT_M
